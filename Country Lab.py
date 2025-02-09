@@ -6,14 +6,10 @@
 def display_heading():
     # TODO: Print the program title "The Country List Program"
     print("The Country List Program")
+    show_menu()
     
     # TODO: Print the command menu with these options:
 def show_menu():
-    # view - View a country
-    # add  - Add a country
-    # del  - Delete a country
-    # exit - Exit program
-    # Add the remaining menu options here
     print("\nCOMMAND MENU")
     print("view - View a country")
     print("add - Add a country")
