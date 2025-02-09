@@ -78,7 +78,7 @@ def add_country(countries):
 # This function deletes a country from the dictionary
 def delete_country(countries):
     # TODO: Ask user for country abbreviation (key)
-    key = input("Enter country abbreviation: ")
+    key = input("Enter country abbreviation: ").upper()
     
     # TODO: If key exists in countries:
     #   - Remove country from dictionary
